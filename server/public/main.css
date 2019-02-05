@@ -13,7 +13,7 @@
 
 .container {
     position: absolute;
-    top: 60vh;
+    top: 65%;
     width: 80%;
     margin: 0 auto;
 }
@@ -75,3 +75,11 @@ nav a:hover::before {
   }
 
  /* Title */
+
+ .title {
+     position: absolute;
+     top: 50%;
+     left: 42%;
+     text-transform: uppercase;
+     font-size: 20px;
+ }
