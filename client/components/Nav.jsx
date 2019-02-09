@@ -7,7 +7,7 @@ const Nav = () => {
     <div className="container">
         <nav>
             <ul>
-                <li><a href="">Fiction</a></li>
+                <li><a href='/Fiction'>Fiction</a></li>
                 <li><a href="">Non-Fiction</a></li>
                 <li><a href="">About</a></li>
                 <li><a href="">Profile</a></li>
