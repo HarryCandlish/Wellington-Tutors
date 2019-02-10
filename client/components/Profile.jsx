@@ -2,11 +2,11 @@ import React from 'react'
 
 import Home from './Home'
 
-const NonFiction = () => {
+const Profile = () => {
     return (
     <div>
         <div>
-            <h1>Non-Fiction</h1>
+            <h1>Profile</h1>
         </div>
         <div>
              <p><a href='./#'>Home</a></p>  
@@ -15,4 +15,4 @@ const NonFiction = () => {
     )
 }
 
-export default NonFiction
+export default Profile 
