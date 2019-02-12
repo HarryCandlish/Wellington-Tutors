@@ -26,12 +26,14 @@ class Fiction extends Component {
             <h1>Fiction</h1>
         </div>
         <div>
-          {
+          <ul>
+         {
             this.state.books.map((book) =>  {
-              return book.book_details[0].title
+              return <li>{book.book_details[0].title}<button className = "addButton" type="text">Add</button></li>
 
             })
           }
+          </ul>
         </div>
         <div>
              <p><a href='./#'>Home</a></p>  
