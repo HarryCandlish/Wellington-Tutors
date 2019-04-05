@@ -4,7 +4,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <h1>Book_Journal</h1>
+        <h1>Central Tutoring</h1>
       </div>
     );
   }
