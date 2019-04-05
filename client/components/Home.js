@@ -4,7 +4,11 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <h1 className="heading">Central Tutoring</h1>
+        <div className="topgrid">
+          <div className="headergrid">
+            <h1 className="heading">Central Tutoring</h1>
+          </div>
+        </div>
       </div>
     );
   }
