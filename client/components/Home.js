@@ -12,15 +12,27 @@ class Home extends Component {
         <div className="bodygrid">
           <div className="topic1">
             <img className="images" src="images/profile.png" />
+            <div className="text-block">
+              <h3>Profile</h3>
+            </div>
           </div>
           <div className="topic1">
             <img className="images" src="images/criteria.png" />
+            <div className="text-block">
+              <h3>Criteria</h3>
+            </div>
           </div>
           <div className="topic1">
             <img className="images" src="images/tutors.jpg" />
+            <div className="text-block">
+              <h3>Tutors</h3>
+            </div>
           </div>
           <div className="topic1">
             <img className="images" src="images/software.jpg" />
+            <div className="text-block">
+              <h3>Software</h3>
+            </div>
           </div>
         </div>
         <div className="footergrid">
