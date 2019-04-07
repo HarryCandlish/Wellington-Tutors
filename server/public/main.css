@@ -32,3 +32,11 @@
 .four {
   grid-column: 4;
 }
+
+.navLinks {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+}
