@@ -34,7 +34,6 @@ body {
 }
 
 .topic1 {
-  background-color: #3500d3;
   text-align: center;
 }
 
@@ -47,4 +46,14 @@ body {
 .aboutgrid {
   background-color: #1a1a1d;
   text-align: center;
+}
+
+.images {
+  width: 100%;
+  height: 100%;
+  border: #1a1a1d 1px solid;
+}
+
+.titles {
+  background-color: #1a1a1d;
 }
