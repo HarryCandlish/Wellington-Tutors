@@ -1,4 +1,5 @@
 body {
+<<<<<<< HEAD
   padding: 0px;
   margin: 0;
   color: azure;
@@ -67,4 +68,68 @@ body {
   width: 100%;
 
   text-align: center;
+=======
+  padding: 0;
+  margin: 0;
+}
+
+.nav {
+  font-family: monospace;
+  display: grid;
+  grid-template-columns: (1, 1fr);
+  grid-auto-rows: auto;
+  border-bottom: 1px solid white;
+  background: white;
+}
+
+ul {
+  background: #1a1a1d;
+  margin: 0;
+  padding-left: 0;
+  text-decoration: none;
+}
+
+li {
+  color: #fff;
+  background: #1a1a1d;
+  display: block;
+  float: left;
+  padding: 1rem;
+  position: relative;
+  transition-duration: 0.5s;
+}
+
+a {
+  text-decoration: none;
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+ul li ul {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+  left: 0;
+  display: none;
+}
+
+ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
+li a {
+  color: #fff;
+}
+
+li:hover {
+  background: red;
+  cursor: pointer;
+>>>>>>> 7156d33f16439732e86c73032a08465123b86b91
 }
