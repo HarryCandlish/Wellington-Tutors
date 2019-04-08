@@ -1,21 +1,22 @@
 body {
-<<<<<<< HEAD
+  font-family: "Dosis", sans-serif;
   padding: 0px;
   margin: 0;
   color: azure;
 }
 
-.topgrid {
+.topGrid {
   display: grid;
   grid-template-rows: repeat(1, 1fr);
-  grid-auto-rows: minmax(10em, auto);
+  grid-auto-rows: minmax(10em);
 }
 
-.headergrid {
+.headerGrid {
   grid-row: 1/1;
   text-align: center;
   background-color: #1a1a1d;
-  padding-top: 30px;
+  padding-top: 0;
+  margin-top: 0;
 }
 
 .heading {
@@ -30,8 +31,9 @@ body {
   grid-auto-rows: minmax(12em, auto);
   border: white 1px solid;
   grid-gap: 30px;
-  background-color: #fc4445;
+  background-color: #895061;
   padding: 30px;
+  color: #f1f1f1;
 }
 
 .topic1 {
@@ -42,17 +44,23 @@ body {
 .footergrid {
   display: grid;
   grid-template-rows: repeat(1, 1fr);
+  grid-auto-columns: repeat(1, 2fr);
   grid-row: 10em;
 }
 
 .aboutgrid {
   background-color: #1a1a1d;
   text-align: center;
+  padding: 0;
+  margin: 0;
 }
 
 .images {
   width: 100%;
   height: 100%;
+  border: #1a1a1d;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
 }
 
 .titles {
@@ -63,27 +71,24 @@ body {
   position: absolute;
   bottom: 0;
   background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 1);
   color: #f1f1f1;
   width: 100%;
-
   text-align: center;
-=======
   padding: 0;
   margin: 0;
 }
 
 .nav {
-  font-family: monospace;
   display: grid;
   grid-template-columns: (1, 1fr);
   grid-auto-rows: auto;
   border-bottom: 1px solid white;
-  background: white;
+  background: #895061;
 }
 
 ul {
-  background: #1a1a1d;
+  background: #895061;
   margin: 0;
   padding-left: 0;
   text-decoration: none;
@@ -91,7 +96,7 @@ ul {
 
 li {
   color: #fff;
-  background: #1a1a1d;
+  background: #895061;
   display: block;
   float: left;
   padding: 1rem;
@@ -100,7 +105,7 @@ li {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 li:hover {
@@ -129,7 +134,17 @@ li a {
 }
 
 li:hover {
-  background: red;
+  background: #1a1a1d;
   cursor: pointer;
->>>>>>> 7156d33f16439732e86c73032a08465123b86b91
+}
+
+.titleImage {
+  width: 100%;
+  height: 450px;
+  opacity: 0.1;
+}
+
+.title {
+  position: relative;
+  top: 50%;
 }

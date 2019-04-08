@@ -4,40 +4,51 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <div className="topgrid">
-          <div className="headergrid">
-            <h1 className="heading">Central Tutoring</h1>
+        <div className="topGrid">
+          <div className="headerGrid">
+            <div>
+              <h2 className="title">Central Tutoring</h2>
+            </div>
+            <img className="titleImage" src="images/teaching.jpg" />
           </div>
         </div>
         <div className="bodygrid">
           <div className="topic1">
-            <img className="images" src="images/profile.png" />
+            <a href="#">
+              <img className="images" src="images/profile.jpg" />
+            </a>
             <div className="text-block">
-              <h3>Profile</h3>
+              <p className="titleGrids">Profile</p>
             </div>
           </div>
           <div className="topic1">
-            <img className="images" src="images/criteria.png" />
+            <a href="#">
+              <img className="images" src="images/curriculum.jpg" />
+            </a>
             <div className="text-block">
-              <h3>Criteria</h3>
+              <p className="titleGrids">Curriculum</p>
             </div>
           </div>
           <div className="topic1">
-            <img className="images" src="images/tutors.jpg" />
+            <a href="#">
+              <img className="images" src="images/tutors.jpg" />
+            </a>
             <div className="text-block">
-              <h3>Tutors</h3>
+              <p className="titleGrids">Tutors</p>
             </div>
           </div>
           <div className="topic1">
-            <img className="images" src="images/software.jpg" />
+            <a href="#">
+              <img className="images" src="images/software.jpg" />
+            </a>
             <div className="text-block">
-              <h3>Software</h3>
+              <p className="titleGrids">Software</p>
             </div>
           </div>
         </div>
         <div className="footergrid">
           <div className="aboutgrid">
-            <h3>Our Purpose</h3>
+            <h3> Our Purpose</h3>
           </div>
           <div className="aboutgrid">
             <p>Help people learn how to code</p>
