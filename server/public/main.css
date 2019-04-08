@@ -20,7 +20,7 @@ body {
   margin-top: 0;
 }
 
-.bodygrid {
+.teachersbodygrid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-auto-columns: minmax(5em, auto);
@@ -32,7 +32,7 @@ body {
   color: #f1f1f1;
 }
 
-.topic1 {
+.topic2 {
   text-align: center;
   position: relative;
 }
