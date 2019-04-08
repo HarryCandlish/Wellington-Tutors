@@ -8,9 +8,7 @@ class App extends Component {
     return (
       <div>
         <Router>
-          <div>
-            <Route exact path="/" component={Teachers} />
-          </div>
+          <Route exact path="/teachers" component={Teachers} />
         </Router>
       </div>
     );
