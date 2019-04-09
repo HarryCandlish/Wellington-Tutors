@@ -2,16 +2,17 @@ body {
   font-family: "Dosis", sans-serif;
   padding: 0px;
   margin: 0;
+  text-align: center;
   color: azure;
 }
 
-.topGrid {
+.topTeacherGrid {
   display: grid;
   grid-template-rows: repeat(1, 1fr);
   grid-auto-rows: minmax(10em);
 }
 
-.headerGrid {
+.teacherTitle {
   grid-row: 1/1;
   text-align: center;
   background-color: #1a1a1d;
@@ -19,12 +20,7 @@ body {
   margin-top: 0;
 }
 
-.heading {
-  width: 100%;
-  height: 200px;
-}
-
-.bodygrid {
+.teachersbodygrid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-auto-columns: minmax(5em, auto);
@@ -36,23 +32,9 @@ body {
   color: #f1f1f1;
 }
 
-.topic1 {
+.topic2 {
   text-align: center;
   position: relative;
-}
-
-.footergrid {
-  display: grid;
-  grid-template-rows: repeat(1, 1fr);
-  grid-auto-columns: repeat(1, 2fr);
-  grid-row: 10em;
-}
-
-.aboutgrid {
-  background-color: #1a1a1d;
-  text-align: center;
-  padding: 0;
-  margin: 0;
 }
 
 .images {
@@ -63,88 +45,14 @@ body {
   border-top-right-radius: 5%;
 }
 
-.titles {
-  background-color: #1a1a1d;
-}
-
 .text-block {
   position: absolute;
   bottom: 0;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 1);
-  color: #f1f1f1;
+  background: rgb(255, 255, 255);
+  background: rgba(255, 255, 255, 1);
+  color: black;
   width: 100%;
   text-align: center;
   padding: 0;
   margin: 0;
-}
-
-.nav {
-  display: grid;
-  grid-template-columns: (1, 1fr);
-  grid-auto-rows: auto;
-  border-bottom: 1px solid white;
-  background: #895061;
-}
-
-ul {
-  background: #895061;
-  margin: 0;
-  padding-left: 0;
-  text-decoration: none;
-}
-
-li {
-  color: #fff;
-  background: #895061;
-  display: block;
-  float: left;
-  padding: 1rem;
-  position: relative;
-  transition-duration: 0.5s;
-}
-
-a {
-  text-decoration: none !important;
-}
-
-li:hover {
-  cursor: pointer;
-}
-
-ul li ul {
-  visibility: hidden;
-  opacity: 0;
-  position: absolute;
-  transition: all 0.5s ease;
-  margin-top: 1rem;
-  left: 0;
-  display: none;
-}
-
-ul li:hover > ul,
-ul li ul:hover {
-  visibility: visible;
-  opacity: 1;
-  display: block;
-}
-
-li a {
-  color: #fff;
-}
-
-li:hover {
-  background: #1a1a1d;
-  cursor: pointer;
-}
-
-.titleImage {
-  width: 100%;
-  height: 450px;
-  opacity: 0.1;
-}
-
-.title {
-  position: relative;
-  top: 50%;
 }
