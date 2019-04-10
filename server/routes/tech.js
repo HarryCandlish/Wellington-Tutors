@@ -4,11 +4,7 @@ const router = express.Router();
 
 router.use(express.json());
 
-const {
-  getAllTech,
-  getTechByTechnology,
-  getTechByDescription
-} = require("../db/tech");
+const { getAllTech, getOneTech, getTechByTechnology } = require("../db/tech");
 
 // GET /api/v1/technologies
 
@@ -22,8 +18,9 @@ router.get("/technologies", (req, res) => {
     });
 });
 
-router.get("/technologies/:technology", (req, res) => {
-  getTechByTechnology(req.params.technologies)
+router.get("/technologies/:id", (req, res) => {
+  const techId = req.params.id;
+  getOneTech(techId)
     .then(tech => {
       res.json(tech);
     })
@@ -32,8 +29,8 @@ router.get("/technologies/:technology", (req, res) => {
     });
 });
 
-router.get("/technologies/:description", (req, res) => {
-  getTechByDescription(req.params.description)
+router.get("/technologies/:technology", (req, res) => {
+  getTechByTechnology(req.params.technologies)
     .then(tech => {
       res.json(tech);
     })

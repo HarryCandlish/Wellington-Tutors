@@ -4,11 +4,7 @@ const router = express.Router();
 
 router.use(express.json());
 
-const {
-  getTutorByName,
-  getAllTutors,
-  getTutorByTech
-} = require("../db/tutors");
+const { getOneTutor, getAllTutors, getTutorByTech } = require("../db/tutors");
 
 // GET /api/v1/teachers
 
@@ -22,10 +18,11 @@ router.get("/", (req, res) => {
     });
 });
 
-router.get("/:name", (req, res) => {
-  getTutorByName(req.params.name)
-    .then(tutors => {
-      res.json(tutors);
+router.get("/tutors/:id", (req, res) => {
+  const tutorId = req.params.id;
+  getOneTutor(tutorId)
+    .then(tutor => {
+      res.json(tutor);
     })
     .catch(err => {
       res.status(500).json({ error: "Oh no an error" });

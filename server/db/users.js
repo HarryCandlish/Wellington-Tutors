@@ -1,22 +1,18 @@
 const connection = require("./connection");
 
-function userExists(name, testDb) {
+function getAllUsers(testDb) {
   const db = testDb || connection;
-
-  return db("users")
-    .where("name", name)
-    .then(users => users.length > 0);
+  return db("users").select();
 }
 
-function getUserByName(name, testDb) {
+function getOneUser(id, testDb) {
   const db = testDb || connection;
-
-  return db("users")
-    .where("name", name)
+  return db(user)
+    .where("id", id)
     .first();
 }
 
 module.exports = {
-  userExists,
-  getUserByName
+  getAllUsers,
+  getOneUser
 };

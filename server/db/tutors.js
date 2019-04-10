@@ -1,18 +1,14 @@
 const connection = require("./connection");
 
-function tutorExists(name, testDb) {
+function getAllTutors(testDb) {
   const db = testDb || connection;
-
-  return db("tutors")
-    .where("name", name)
-    .then(tutors => tutors.length > 0);
+  return db("tutors").select();
 }
 
-function getTutorByName(name, testDb) {
+function getOneTutor(id, testDb) {
   const db = testDb || connection;
-
-  return db("tutors")
-    .where("name", name)
+  return db(tutor)
+    .where("id", id)
     .first();
 }
 
@@ -26,7 +22,7 @@ function getTutorByTech(techId, testDb) {
 }
 
 module.exports = {
-  tutorExists,
-  getTutorByName,
+  getAllTutors,
+  getOneTutor,
   getTutorByTech
 };

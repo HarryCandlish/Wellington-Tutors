@@ -1,11 +1,16 @@
 const connection = require("./connection");
+const knex = require("knex");
 
-function techExists(technology, testDb) {
+function getAllTech(testDb) {
   const db = testDb || connection;
+  return db("tech").select();
+}
 
-  return db("tech")
-    .where("technology", technology)
-    .then(tech => tech.length > 0);
+function getOneTech(id, testDb) {
+  const db = testDb || connection;
+  return db(tech)
+    .where("id", id)
+    .first();
 }
 
 function getTechByTechnology(technology, testDb) {
@@ -17,6 +22,7 @@ function getTechByTechnology(technology, testDb) {
 }
 
 module.exports = {
-  techExists,
-  getTechByTechnology
+  getAllTech,
+  getTechByTechnology,
+  getOneTech
 };
