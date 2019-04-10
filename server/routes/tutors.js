@@ -4,7 +4,11 @@ const router = express.Router();
 
 router.use(express.json());
 
-const { getTutorByName, getAllTutors, getTutorByTech } = require("../db/users");
+const {
+  getTutorByName,
+  getAllTutors,
+  getTutorByTech
+} = require("../db/tutors");
 
 // GET /api/v1/teachers
 
