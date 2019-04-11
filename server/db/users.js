@@ -12,7 +12,16 @@ function getOneUser(id, testDb) {
     .first();
 }
 
+function getUserByName(name, testDb) {
+  const db = testDb || connection;
+
+  return db("users")
+    .where("name", name)
+    .first();
+}
+
 module.exports = {
   getAllUsers,
-  getOneUser
+  getOneUser,
+  getUserByName
 };

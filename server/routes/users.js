@@ -4,9 +4,19 @@ const router = express.Router();
 
 router.use(express.json());
 
-const { getOneUser, getAllUsers } = require("../db/users");
+const { getOneUser, getAllUsers, getUserByName } = require("../db/users");
 
 // GET/api/v1/users
+
+router.get("/users/:name", (req, res) => {
+  getUserByName(req.params.name)
+    .then(users => {
+      res.json(users);
+    })
+    .catch(err => {
+      res.status(500).json({ error: "Oh no an error" });
+    });
+});
 
 router.get("/users", (req, res) => {
   getAllUsers()

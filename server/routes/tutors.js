@@ -6,9 +6,13 @@ router.use(express.json());
 
 const { getOneTutor, getAllTutors, getTutorByTech } = require("../db/tutors");
 
-// GET /api/v1/teachers
+// GET /api/v1/tutors
 
-router.get("/", (req, res) => {
+router.get("/tutors", (req, res) => {
+  res.send("hello");
+});
+
+router.get("/tutors", (req, res) => {
   getAllTutors()
     .then(tutors => {
       res.json(tutors);
