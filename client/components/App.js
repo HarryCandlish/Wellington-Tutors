@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { HashRouter as Router, Route } from "react-router-dom";
 
-import Teachers from "./Teachers";
+import Tutors from "./Tutors";
 import Home from "./Home";
 import Nav from "./Nav";
 
@@ -13,7 +13,7 @@ class App extends Component {
           <div>
             <Route exact path="/" component={Nav} />
             <Route exact path="/" component={Home} />
-            <Route exact path="/teachers" component={Teachers} />
+            <Route exact path="/tutors" component={Tutors} />
           </div>
         </Router>
       </div>

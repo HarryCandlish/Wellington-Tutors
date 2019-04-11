@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 
-class Teachers extends Component {
+class Tutors extends Component {
   render() {
     return (
       <div>
         <div className="topTeacherGrid">
           <div className="teacherTitle">
-            <h1>Teachers</h1>
+            <h1>Tutors</h1>
           </div>
         </div>
         <div className="teachersbodygrid">
@@ -164,4 +164,4 @@ class Teachers extends Component {
   }
 }
 
-export default Teachers;
+export default Tutors;
