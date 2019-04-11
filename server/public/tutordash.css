@@ -1,0 +1,54 @@
+.tutorDashTitleGrid {
+  display: grid;
+  grid-template-rows: repeat(1, 1fr);
+  grid-auto-rows: minmax(10em);
+}
+
+.tutorDashHeaderGrid {
+  grid-row: 1/1;
+  text-align: center;
+  background-color: #1a1a1d;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.tutorDashTitleImage {
+  width: 100%;
+  height: 400px;
+}
+
+.tutorDashBodyGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-auto-columns: minmax(10em, auto);
+  grid-auto-rows: minmax(12em, auto);
+  border: white 1px solid;
+  grid-gap: 15px;
+  background-color: #895061;
+  padding: 30px;
+  color: #1a1a1d;
+}
+
+.tutorDashContentOne {
+  border: #f1f1f1 1px solid;
+  background-color: white;
+  height: 200px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.tutorDashContentTwo {
+  grid-row: 1/3;
+  border: #f1f1f1 1px solid;
+  background-color: white;
+  padding: 5px;
+  margin: 5px;
+}
+
+.tutorDashContentThree {
+  border: #f1f1f1 1px solid;
+  background-color: white;
+  padding: 5px;
+  margin: 5px;
+}
