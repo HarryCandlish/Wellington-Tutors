@@ -1,5 +1,4 @@
 const connection = require("./connection");
-const knex = require("knex");
 
 function getAllTech(testDb) {
   const db = testDb || connection;
