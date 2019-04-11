@@ -5,6 +5,7 @@ import Tutors from "./Tutors";
 import Home from "./Home";
 import Nav from "./Nav";
 import Technologies from "./Technologies";
+import Dashboard from "./Dashboard";
 
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
             <Route exact path="/" component={Home} />
             <Route exact path="/tutors" component={Tutors} />
             <Route exact path="/technologies" component={Technologies} />
+            <Route exact path="/dashboard" component={Dashboard} />
           </div>
         </Router>
       </div>
