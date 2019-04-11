@@ -7,120 +7,120 @@ class Technologies extends Component {
         <div>
           <div className="techGrid">
             <div className="techHeader">
-              <h2 className="techTitle">Technologies</h2>
+              <h2>Technologies</h2>
             </div>
           </div>
         </div>
-        <div className="techbodygrid">
-          <div className="topic3">
+        <div className="techBodyGrid">
+          <div className="techContent">
             <a href="#">
-              <img className="images" src="images/profile.jpg" />
+              <img className="techImages" src="images/profile.jpg" />
             </a>
-            <div className="text-block3">
-              <h3 className="titleGrids">React</h3>
+            <div className="techTextBlock">
+              <h3>React</h3>
               <p>Description:</p>
             </div>
           </div>
-          <div className="topic3">
+          <div className="techContent">
             <a href="#">
-              <img className="images" src="images/curriculum.jpg" />
+              <img className="techImages" src="images/curriculum.jpg" />
             </a>
-            <div className="text-block3">
-              <h3 className="titleGrids">Redux</h3>
+            <div className="techTextBlock">
+              <h3>Redux</h3>
               <p>Description:</p>
             </div>
           </div>
-          <div className="topic3">
+          <div className="techContent">
             <a href="#">
-              <img className="images" src="images/tutors.jpg" />
+              <img className="techImages" src="images/tutors.jpg" />
             </a>
-            <div className="text-block3">
-              <h3 className="titleGrids">CSS/HTML</h3>
+            <div className="techTextBlock">
+              <h3>CSS/HTML</h3>
               <p>Description:</p>
             </div>
           </div>
-          <div className="topic3">
+          <div className="techContent">
             <a href="#">
-              <img className="images" src="images/software.jpg" />
+              <img className="techImages" src="images/software.jpg" />
             </a>
-            <div className="text-block3">
-              <h3 className="titleGrids">Databases</h3>
-              <p>Description:</p>
-            </div>
-          </div>
-        </div>
-        <div className="techbodygrid">
-          <div className="topic3">
-            <a href="#">
-              <img className="images" src="images/profile.jpg" />
-            </a>
-            <div className="text-block3">
-              <h3 className="titleGrids">Back-End</h3>
-              <p>Description:</p>
-            </div>
-          </div>
-          <div className="topic3">
-            <a href="#">
-              <img className="images" src="images/curriculum.jpg" />
-            </a>
-            <div className="text-block3">
-              <h3 className="titleGrids">Front-End</h3>
-              <p>Description:</p>
-            </div>
-          </div>
-          <div className="topic3">
-            <a href="#">
-              <img className="images" src="images/tutors.jpg" />
-            </a>
-            <div className="text-block3">
-              <h3 className="titleGrids">Full-Stack</h3>
-              <p>Description:</p>
-            </div>
-          </div>
-          <div className="topic3">
-            <a href="#">
-              <img className="images" src="images/software.jpg" />
-            </a>
-            <div className="text-block3">
-              <h3 className="titleGrids">Web-Design</h3>
+            <div className="techTextBlock">
+              <h3>Databases</h3>
               <p>Description:</p>
             </div>
           </div>
         </div>
-        <div className="techbodygrid">
-          <div className="topic3">
+        <div className="techBodyGrid">
+          <div className="techContent">
             <a href="#">
-              <img className="images" src="images/profile.jpg" />
+              <img className="techImages" src="images/profile.jpg" />
             </a>
-            <div className="text-block3">
-              <h3 className="titleGrids">Testing</h3>
+            <div className="techTextBlock">
+              <h3>Back-End</h3>
               <p>Description:</p>
             </div>
           </div>
-          <div className="topic3">
+          <div className="techContent">
             <a href="#">
-              <img className="images" src="images/curriculum.jpg" />
+              <img className="techImages" src="images/curriculum.jpg" />
             </a>
-            <div className="text-block3">
-              <h3 className="titleGrids">PHP</h3>
+            <div className="techTextBlock">
+              <h3>Front-End</h3>
               <p>Description:</p>
             </div>
           </div>
-          <div className="topic3">
+          <div className="techContent">
             <a href="#">
-              <img className="images" src="images/tutors.jpg" />
+              <img className="techImages" src="images/tutors.jpg" />
             </a>
-            <div className="text-block3">
-              <h3 className="titleGrids">Ruby</h3>
+            <div className="techTextBlock">
+              <h3>Full-Stack</h3>
               <p>Description:</p>
             </div>
           </div>
-          <div className="topic3">
+          <div className="techContent">
             <a href="#">
-              <img className="images" src="images/software.jpg" />
+              <img className="techImages" src="images/software.jpg" />
             </a>
-            <div className="text-block3">
-              <h3 className="titleGrids">React Native</h3>
+            <div className="techTextBlock">
+              <h3>Web-Design</h3>
+              <p>Description:</p>
+            </div>
+          </div>
+        </div>
+        <div className="techBodyGrid">
+          <div className="techContent">
+            <a href="#">
+              <img className="techImages" src="images/profile.jpg" />
+            </a>
+            <div className="techTextBlock">
+              <h3>Testing</h3>
+              <p>Description:</p>
+            </div>
+          </div>
+          <div className="techContent">
+            <a href="#">
+              <img className="techImages" src="images/curriculum.jpg" />
+            </a>
+            <div className="techTextBlock">
+              <h3>PHP</h3>
+              <p>Description:</p>
+            </div>
+          </div>
+          <div className="techContent">
+            <a href="#">
+              <img className="techImages" src="images/tutors.jpg" />
+            </a>
+            <div className="techTextBlock">
+              <h3>Ruby</h3>
+              <p>Description:</p>
+            </div>
+          </div>
+          <div className="techContent">
+            <a href="#">
+              <img className="techImages" src="images/software.jpg" />
+            </a>
+            <div className="techTextBlock">
+              <h3>React Native</h3>
               <p>Description:</p>
             </div>
           </div>

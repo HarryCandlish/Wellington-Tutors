@@ -4,53 +4,53 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <div className="topGrid">
-          <div className="headerGrid">
+        <div className="homeTitleGrid">
+          <div className="homeHeaderGrid">
             <div>
-              <h2 className="title">Central Tutoring</h2>
+              <h2>Central Tutoring</h2>
             </div>
-            <img className="titleImage" src="images/teaching.jpg" />
+            <img className="homeTitleImage" src="images/teaching.jpg" />
           </div>
         </div>
-        <div className="bodygrid">
-          <div className="topic1">
+        <div className="homeBodygrid">
+          <div className="bodyContentGrid">
             <a href="#">
-              <img className="images" src="images/profile.jpg" />
+              <img className="homeImages" src="images/profile.jpg" />
             </a>
-            <div className="text-block">
-              <p className="titleGrids">Profile</p>
+            <div className="homeTextBlock">
+              <p>Profile</p>
             </div>
           </div>
-          <div className="topic1">
+          <div className="bodyContentGrid">
             <a href="#">
-              <img className="images" src="images/curriculum.jpg" />
+              <img className="homeImages" src="images/curriculum.jpg" />
             </a>
-            <div className="text-block">
-              <p className="titleGrids">Curriculum</p>
+            <div className="homeTextBlock">
+              <p>Curriculum</p>
             </div>
           </div>
-          <div className="topic1">
+          <div className="bodyContentGrid">
             <a href="#/tutors">
-              <img className="images" src="images/tutors.jpg" />
+              <img className="homeImages" src="images/tutors.jpg" />
             </a>
-            <div className="text-block">
-              <p className="titleGrids">Tutors</p>
+            <div className="homeTextBlock">
+              <p>Tutors</p>
             </div>
           </div>
-          <div className="topic1">
+          <div className="bodyContentGrid">
             <a href="#/tech">
-              <img className="images" src="images/software.jpg" />
+              <img className="homeImages" src="images/software.jpg" />
             </a>
-            <div className="text-block">
-              <p className="titleGrids">Software</p>
+            <div className="homeTextBlock">
+              <p>Software</p>
             </div>
           </div>
         </div>
-        <div className="footergrid">
-          <div className="aboutgrid">
+        <div className="homeFooterGrid">
+          <div className="homeAboutGrid">
             <h3> Our Purpose</h3>
           </div>
-          <div className="aboutgrid">
+          <div className="homeAboutGrid">
             <p>Help people learn how to code</p>
           </div>
         </div>
