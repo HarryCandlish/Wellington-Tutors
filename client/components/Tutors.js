@@ -4,158 +4,134 @@ class Tutors extends Component {
   render() {
     return (
       <div>
-        <div className="topTeacherGrid">
-          <div className="teacherTitle">
+        <div className="tutorHeaderGrid">
+          <div className="tutorTitleHeader">
             <h1>Tutors</h1>
           </div>
         </div>
-        <div className="teachersbodygrid">
-          <div className="topic2">
+        <div className="tutorBodygrid">
+          <div className="tutorContent">
             <a href="#">
-              <img className="images" src="images/profile.jpg" />
+              <img className="tutorImages" src="images/profile.jpg" />
             </a>
-            <div className="text-block2">
-              <p className="titleGrids">Henry Miller</p>
-              <br />
-              <p>About: Like sitting under the palm trees in California.</p>
-              <br />
-              <p>Skills: React and Redux</p>
+            <div className="tutorTextBox">
+              <h3>Henry Miller</h3>
+              <p>About: </p>
+              <p>Skills:</p>
             </div>
           </div>
-          <div className="topic2">
+          <div className="tutorContent">
             <a href="#">
-              <img className="images" src="images/curriculum.jpg" />
+              <img className="tutorImages" src="images/curriculum.jpg" />
             </a>
-            <div className="text-block2">
-              <p className="titleGrids">Sylvia Plath</p>
-              <br />
-              <p>About: Like sitting under the palm trees in California.</p>
-              <br />
-              <p>Skills: React and Redux</p>
+            <div className="tutorTextBox">
+              <h3>Sylvia Plath</h3>
+              <p>About: </p>
+              <p>Skills:</p>
             </div>
           </div>
-          <div className="topic2">
+          <div className="tutorContent">
             <a href="#">
-              <img className="images" src="images/tutors.jpg" />
+              <img className="tutorImages" src="images/tutors.jpg" />
             </a>
-            <div className="text-block2">
-              <p className="titleGrids">Fyodor Dostoevsky</p>
-              <br />
-              <p>About: Like sitting under the palm trees in California.</p>
-              <br />
-              <p>Skills: React and Redux</p>
+            <div className="tutorTextBox">
+              <h3>Fyodor Dostoevsky</h3>
+              <p>About: </p>
+              <p>Skills:</p>
             </div>
           </div>
-          <div className="topic2">
+          <div className="tutorContent">
             <a href="#">
-              <img className="images" src="images/software.jpg" />
+              <img className="tutorImages" src="images/software.jpg" />
             </a>
-            <div className="text-block2">
-              <p className="titleGrids">Milan Kundera</p>
-              <br />
-              <p>About: Like sitting under the palm trees in California.</p>
-              <br />
-              <p>Skills: React and Redux</p>
+            <div className="tutorTextBox">
+              <h3>Milan Kundera</h3>
+              <p>About: </p>
+              <p>Skills:</p>
             </div>
           </div>
         </div>
-        <div className="teachersbodygrid">
-          <div className="topic2">
+        <div className="tutorBodygrid">
+          <div className="tutorContent">
             <a href="#">
-              <img className="images" src="images/profile.jpg" />
+              <img className="tutorImages" src="images/profile.jpg" />
             </a>
-            <div className="text-block2">
-              <p className="titleGrids">Charles Bukowski</p>
-              <br />
-              <p>About: Like sitting under the palm trees in California.</p>
-              <br />
-              <p>Skills: React and Redux</p>
+            <div className="tutorTextBox">
+              <h3>Charles Bukowski</h3>
+              <p>About: </p>
+              <p>Skills:</p>
             </div>
           </div>
-          <div className="topic2">
+          <div className="tutorContent">
             <a href="#">
-              <img className="images" src="images/curriculum.jpg" />
+              <img className="tutorImages" src="images/curriculum.jpg" />
             </a>
-            <div className="text-block2">
-              <p className="titleGrids">Albert Camus</p>
-              <br />
-              <p>About: Like sitting under the palm trees in California.</p>
-              <br />
-              <p>Skills: React and Redux</p>
+            <div className="tutorTextBox">
+              <h3>Albert Camus</h3>
+              <p>About: </p>
+              <p>Skills:</p>
             </div>
           </div>
-          <div className="topic2">
+          <div className="tutorContent">
             <a href="#">
-              <img className="images" src="images/tutors.jpg" />
+              <img className="tutorImages" src="images/tutors.jpg" />
             </a>
-            <div className="text-block2">
-              <p className="titleGrids">Friedrich Nietzsche</p>
-              <br />
-              <p>About: Like sitting under the palm trees in California.</p>
-              <br />
-              <p>Skills: React and Redux</p>
+            <div className="tutorTextBox">
+              <h3>Friedrich Nietzshe</h3>
+              <p>About: </p>
+              <p>Skills:</p>
             </div>
           </div>
-          <div className="topic2">
+          <div className="tutorContent">
             <a href="#">
-              <img className="images" src="images/software.jpg" />
+              <img className="tutorImages" src="images/software.jpg" />
             </a>
-            <div className="text-block2">
-              <p className="titleGrids">Graham Greene</p>
-              <br />
-              <p>About: Like sitting under the palm trees in California.</p>
-              <br />
-              <p>Skills: React and Redux</p>
+            <div className="tutorTextBox">
+              <h3>Graham Greene</h3>
+              <p>About: </p>
+              <p>Skills:</p>
             </div>
           </div>
         </div>
-        <div className="teachersbodygrid">
-          <div className="topic2">
+        <div className="tutorBodygrid">
+          <div className="tutorContent">
             <a href="#">
-              <img className="images" src="images/profile.jpg" />
+              <img className="tutorImages" src="images/profile.jpg" />
             </a>
-            <div className="text-block2">
-              <p className="titleGrids">Frans Kafka</p>
-              <br />
-              <p>About: Like sitting under the palm trees in California.</p>
-              <br />
-              <p>Skills: React and Redux</p>
+            <div className="tutorTextBox">
+              <h3>Frans Kafka</h3>
+              <p>About: </p>
+              <p>Skills:</p>
             </div>
           </div>
-          <div className="topic2">
+          <div className="tutorContent">
             <a href="#">
-              <img className="images" src="images/curriculum.jpg" />
+              <img className="tutorImages" src="images/curriculum.jpg" />
             </a>
-            <div className="text-block2">
-              <p className="titleGrids">Hermann Hesse</p>
-              <br />
-              <p>About: Like sitting under the palm trees in California.</p>
-              <br />
-              <p>Skills: React and Redux</p>
+            <div className="tutorTextBox">
+              <h3>Hermann Hesse</h3>
+              <p>About: </p>
+              <p>Skills:</p>
             </div>
           </div>
-          <div className="topic2">
+          <div className="tutorContent">
             <a href="#">
-              <img className="images" src="images/tutors.jpg" />
+              <img className="tutorImages" src="images/tutors.jpg" />
             </a>
-            <div className="text-block2">
-              <p className="titleGrids">Virginia Wolf</p>
-              <br />
-              <p>About: Like sitting under the palm trees in California.</p>
-              <br />
-              <p>Skills: React and Redux</p>
+            <div className="tutorTextBox">
+              <h3>Virginia Wolf</h3>
+              <p>About: </p>
+              <p>Skills:</p>
             </div>
           </div>
-          <div className="topic2">
+          <div className="tutorContent">
             <a href="#">
-              <img className="images" src="images/software.jpg" />
+              <img className="tutorImages" src="images/software.jpg" />
             </a>
-            <div className="text-block2">
-              <p className="titleGrids">John Fante</p>
-              <br />
-              <p>About: Like sitting under the palm trees in California.</p>
-              <br />
-              <p>Skills: React and Redux</p>
+            <div className="tutorTextBox">
+              <h3>John Fante</h3>
+              <p>About: </p>
+              <p>Skills:</p>
             </div>
           </div>
         </div>
