@@ -30,7 +30,7 @@ class Home extends Component {
             </div>
           </div>
           <div className="topic1">
-            <a href="#">
+            <a href="#/tutors">
               <img className="images" src="images/tutors.jpg" />
             </a>
             <div className="text-block">
@@ -38,7 +38,7 @@ class Home extends Component {
             </div>
           </div>
           <div className="topic1">
-            <a href="#">
+            <a href="#/tech">
               <img className="images" src="images/software.jpg" />
             </a>
             <div className="text-block">
