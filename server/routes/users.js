@@ -1,41 +1,20 @@
 const express = require("express");
-const db = require("../db/users");
 const router = express.Router();
+
+const { getAllUsers } = require("../db/users");
 
 router.use(express.json());
 
-const { getOneUser, getAllUsers, getUserByName } = require("../db/users");
-
-// GET/api/v1/users
-
-router.get("/users/:name", (req, res) => {
-  getUserByName(req.params.name)
-    .then(users => {
-      res.json(users);
-    })
-    .catch(err => {
-      res.status(500).json({ error: "Oh no an error" });
-    });
-});
+// GET /api/v1/users
 
 router.get("/users", (req, res) => {
   getAllUsers()
     .then(users => {
+      console.log(users);
       res.json(users);
     })
     .catch(err => {
-      res.status(500).json({ error: "Oh no an error" });
-    });
-});
-
-router.get("/users/:id", (req, res) => {
-  const userId = req.params.id;
-  getOneUser(userId)
-    .then(user => {
-      res.json(user);
-    })
-    .catch(err => {
-      res.status(500).json({ error: "Oh no an error" });
+      res.status(500).json({ error: "error" });
     });
 });
 
